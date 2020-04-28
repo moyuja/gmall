@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: pms-service
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: 9b1cb408-353c-46b4-baeb-4b0ae2fe3b05
+        group: dev
+        file-extension: yml #配置让nacos读取yml文件
